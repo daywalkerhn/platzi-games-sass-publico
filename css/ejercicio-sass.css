@@ -28,19 +28,18 @@ main {
 .perfil {
   width: 50%;
   padding-top: 50px;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #8841DA; }
   .perfil__avatar {
     display: block;
     margin: 0 auto;
     border-radius: 50em; }
   .perfil__nombre, .perfil__minibio h2 {
-    text-transform: uppercase;
     text-align: center;
-    font-size: 25px;
-    font-family: "Oswald", sans-serif; }
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase; }
   .perfil__titulo, .perfil__minibio h3 {
-    display: block;
     text-transform: uppercase;
     text-align: center;
     font-weight: 700;
@@ -51,15 +50,15 @@ main {
     width: 100px;
     height: 40px;
     margin: 15px auto;
-    padding-top: 5px;
+    padding-top: 15px;
     border-radius: 20px;
     text-decoration: none;
-    text-transform: uppercase;
     text-align: center;
+    color: #FFFFFF;
     font-family: "Oswald", sans-serif;
-    color: #FFF;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    background-color: rgba(0, 0, 0, 0.1); }
+    text-transform: uppercase;
+    background-color: rgba(51, 51, 51, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.3); }
 
 .perfil__minibio {
   margin: 0 auto;
@@ -70,39 +69,38 @@ main {
   display: -ms-flexbox;
   display: flex;
   width: 50%;
-  height: 80px;
+  height: 90px;
   padding-top: 15px;
   margin: 0 auto;
   -ms-flex-pack: distribute;
   justify-content: space-around;
   border-radius: 20px;
-  background-color: #FFF;
+  -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.5);
   color: #333333;
-  -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2); }
+  background-color: #FFFFFF; }
   .estadistica--perfil h3 {
     font-weight: 600;
     font-size: 20px;
     text-align: center;
-    text-transform: uppercase;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase; }
   .estadistica--perfil span {
-    opacity: .5;
     font-size: 12px;
     text-align: center;
-    text-transform: uppercase;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase; }
 
 .ubicacion--perfil {
   width: 50%;
-  height: 80px;
+  height: 90px;
   margin: 30px auto 0 auto;
   padding: 20px 0 0 50px;
   border-radius: 20px;
-  background-color: #FFF;
+  -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.5);
   color: #333333;
-  -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2); }
+  background-color: #FFFFFF; }
   .ubicacion--perfil i {
     display: block;
     float: left;
@@ -115,10 +113,10 @@ main {
     font-size: 20px;
     font-family: "Oswald", sans-serif; }
   .ubicacion--perfil h3 {
-    opacity: .5;
     text-transform: uppercase;
     font-size: 12px;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Oswald", sans-serif;
+    color: rgba(51, 51, 51, 0.5); }
 
 .galeria {
   width: 50%;
@@ -129,10 +127,10 @@ main {
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   border-radius: 20px;
-  background-color: #FFF;
+  -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.5);
   color: #333333;
-  -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2); }
+  background-color: #FFFFFF; }
   .galeria__foto-principal {
     float: left;
     margin-right: 10px; }
@@ -142,33 +140,9 @@ main {
     margin-bottom: 5px; }
   .galeria h2 {
     margin-bottom: 10px;
-    text-transform: uppercase;
     font-weight: 600;
     font-size: 20px;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase; }
   .galeria img {
     border-radius: 10px; }
-
-.articulos {
-  width: 50%;
-  padding: 50px 0 0 50px; }
-
-.articulo {
-  margin-bottom: 75px;
-  border-bottom: 3px solid #8841DA; }
-  .articulo__categoria {
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 14px;
-    font-family: "Oswald", sans-serif;
-    color: #8841DA; }
-  .articulo__titulo {
-    color: #333333;
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    font-size: 20px; }
-  .articulo__descripcion {
-    font-size: 18px;
-    line-height: 30px;
-    margin-bottom: 30px;
-    padding-right: 100px; }
