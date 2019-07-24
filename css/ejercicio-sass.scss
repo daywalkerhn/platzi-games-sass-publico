@@ -24,10 +24,9 @@ main {
 	&__nombre {
 		text-transform: uppercase;
 		text-align: center;
-		font-size: 25px;
+		font-size: 20px;
 	}
 	&__titulo {
-		display: block;
 		text-transform: uppercase;
 		text-align: center;
 		font-weight: 700;
@@ -38,10 +37,12 @@ main {
 		width: 100px;
 		height: 40px;
 		margin: 15px auto;
-		padding-top: 5px;
+		padding-top: 15px;
 		border-radius: 20px;
 		text-decoration: none;
 		text-transform: uppercase;
 		text-align: center;
 	}
 }
+
+
